@@ -8,13 +8,13 @@
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #66A5AD;
-  --first-color-alt: #C4DFE6;
+  --first-color: #ffd54f;
+  --first-color-alt: #6b7280;
   --title-color: white;
   --text-color: white;
   --text-color-light: hsl(19, 8%, 55%);
-  --body-color: #66A5AD;
-  --container-color: #C4DFE6;
+  --body-color: #000212;
+  --container-color: #0a192f;
 
 
   /*========== Font and typography ==========*/
@@ -161,7 +161,7 @@ img {
   left: 0;
   margin-bottom: 0px;
   z-index: var(--z-fixed);
-  background: linear-gradient(to bottom, #66A5AD, #C4DFE6,);
+  background: linear-gradient(to bottom, #000212, #0c0c23, rgba(21, 28, 102, 0.7));
   border: blur(4px);
   box-shadow: 0px 3.89851px 30px rgba(0, 0, 0, 0.17),
     0px 11.1386px 71.2871px rgba(30, 40, 146, 0.7);
@@ -211,7 +211,7 @@ img {
     left: 0;
     background-color: var(--body-color);
     width: 100%;
-    box-shadow: 0 8px 20px hsla(19, 64%, 24%, 0.1), 0 0 0 1px #66A5AD; 
+    box-shadow: 0 8px 20px hsla(19, 64%, 24%, 0.1);
     padding-block: 3.5rem;
     transition: top 0.4s;
   }
@@ -1385,7 +1385,7 @@ img {
 /* footer section start */
 
 .footer-section {
-  background: #66A5AD;
+  background: #000212;
   position: relative;
 }
 
