@@ -213,7 +213,7 @@ jQuery(document).ready(function($){
 
 /*countdown*/
 // Set the date and time to count down to
-var countDownDate = new Date("2023-04-28T00:00:00Z").getTime();
+var countDownDate = new Date("2024-05-07T00:00:00Z").getTime();
 
 // Update the countdown every second
 var x = setInterval(function() {
