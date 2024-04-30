@@ -409,6 +409,12 @@ img {
   justify-content: center;
   row-gap: 5.5rem;
 }
+.popular__container__center {
+  padding-top: 4rem;
+  grid-template-columns: 250px;
+  justify-content: center;
+  row-gap: 5.5rem;
+}
 
 .popular__card {
   position: relative;
@@ -420,6 +426,7 @@ img {
   transition: background 0.5s;
   /* for dark mode animation */
 }
+
 
 .popular__img {
   width: 200px;
